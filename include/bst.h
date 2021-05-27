@@ -11,6 +11,7 @@ class BST {
     Node * left;
     Node * right;
   };
+ 
  private:
   Node * root;
   Node * addNode(Node *root, T value) {
@@ -50,6 +51,7 @@ class BST {
         return searchNode(root->left, value);
     }
   }
+ 
  public:
   BST() : root(nullptr) {}
   ~BST() {}
